@@ -1,0 +1,45 @@
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+  transition: 150ms ease-in-out;
+}
+
+.jumbotronContainer {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-color: transparent;
+  width: 60%;
+}
+
+ select option {
+  color: black;
+} 
+
+.d-flex .container {
+  padding: 0.3rem 1rem;
+}
+
+.show-button {
+  opacity: 1;
+  pointer-events: all;
+  transition: 150ms ease-in-out;
+}
+
+.hide-button {
+  opacity: 0;
+  pointer-events: none;
+  transition: 150ms ease-in-out;
+}
+
+
+
