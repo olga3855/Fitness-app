@@ -9,11 +9,11 @@ const About = () => {
       <Row className="my-5 center-text mx-auto">
         <Col sm={12} lg={6} className="my-auto">
           <Container fluid>
-            <h1 className="font-weight-light pb-3">About CalMac</h1>
+            <h1 className="font-weight-light pb-3">About EasyFit</h1>
             <p>
-              The CalMac calculator can be used to calculate the approximate
+              The EasyFit calculator can be used to calculate the approximate
               number of calories and macronutrients a person needs to consume
-              daily to maintain, gain, or lose weight. CalMac uses a formula and average numbers to calculate one's caloric intake. Assuming that your goal is to maintain your weight and your results were not
+              daily to maintain, gain, or lose weight. EasyFit uses a formula and average numbers to calculate one's caloric intake. Assuming that your goal is to maintain your weight and your results were not
               accurate, you may notice that you are either gaining or losing
               weight. You can easily decrease or increase the number of calories
               you are consuming to counteract your weight gain or loss and find

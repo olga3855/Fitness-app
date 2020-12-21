@@ -14,7 +14,7 @@ const NavBar = (props) => {
 
       <Container>
         <Navbar.Brand>
-          <i className="fas fa-apple-alt"></i> CALMAC
+          <i className="fas fa-apple-alt"></i> EasyFit
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

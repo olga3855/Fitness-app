@@ -67,7 +67,7 @@ const Results = (props) => {
 
           <Row>
             <Container fluid className="text-center">
-              <p>If you want to use Calorie Counter, please </p>
+              <p>If you want to use Calories Counter, please </p>
               <S.Links>
                 <S.Llink to='/register'>Sign Up</S.Llink>
               </S.Links>
@@ -101,34 +101,34 @@ const S = {
   `,
 
   Form: styled(Form)`
-background-color: rgba(0, 0, 0, 0.5);
-border-radius: 20px;
-border: 1px white solid;
-padding: 5%;
-`,
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 1px white solid;
+  padding: 5%;
+  `,
 
   Control: styled(Form.Control)` 
-background: transparent;
-border: 0;
-color: white;
-border-radius: 0;
-border-bottom: 1px white solid;
-width: 350px;
-padding: 0;
-margin: 0;
+  background: transparent;
+  border: 0;
+  color: white;
+  border-radius: 0;
+  border-bottom: 1px white solid;
+  width: 350px;
+  padding: 0;
+  margin: 0;
 
-&::placeholder {
-color: white;
-}
+  &::placeholder {
+  color: white;
+  }
 
-&:focus {
-background: transparent;
-border: 0;
-color: white;
-box-shadow: none;
-border-bottom: 1px white solid;
-}
-`,
+  &:focus {
+  background: transparent;
+  border: 0;
+  color: white;
+  box-shadow: none;
+  border-bottom: 1px white solid;
+  }
+  `,
 
   Button: styled(Button)`
   border: 1px white solid;
@@ -137,20 +137,20 @@ border-bottom: 1px white solid;
   width: 10rem;
   transition: 300ms;
 
-&:hover {
+  &:hover {
   color: black;
   background-color: white;
-}
+  }
   `,
   Links: styled.div`
    text-align: center;
    `,
 
-  Llink: styled(Link)`
+   Llink: styled(Link)`
    text-decoration: none;
    color: #068bbf;
    font-size: 1.5rem;
    `
-}
+ }
 
 export default Results;

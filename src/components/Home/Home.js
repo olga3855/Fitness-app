@@ -12,9 +12,9 @@ const Home = (props) => {
       className="d-flex justify-content-center align-items-center jumbotronContainer"
     >
       <Jumbotron fluid className="text-white text-center">
-        <S.Title>CalMac Calculator</S.Title>
+        <S.Title>EasyFit Calculator</S.Title>
         <p>
-          A simple and straightforward Calories/Macronutrients Calculator!
+          A simple Macronutrients Calculator/Counter!
           </p>
         <Link to="/calories">
           <S.Button

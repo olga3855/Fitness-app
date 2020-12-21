@@ -18,7 +18,6 @@ const TableCounter = (props) => {
 
         <S.Title>CALMAC Counter</S.Title>
         <h4>Hello, {props.location.user}, now you can choose products from the list to detail your diet</h4>
-
         <S.Table striped bordered hover size="sm">
           <thead>
             <tr>

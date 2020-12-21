@@ -13,7 +13,7 @@ const Calories = (props) => {
     >
       <Jumbotron fluid className="text-white text-center font-weight-light">
         <S.Form>
-          <S.Title className="m-4 ">CALMAC Calculator</S.Title>
+          <S.Title className="m-4 ">EasyFit Calculator</S.Title>
 
           <Container className="d-flex">
             <Form.Label className="mr-3" name="age">
