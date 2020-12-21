@@ -16,7 +16,7 @@ const TableCounter = (props) => {
     >
       <S.Main>
 
-        <S.Title>CALMAC Counter</S.Title>
+        <S.Title>EasyFit Counter</S.Title>
         <h4>Hello, {props.location.user}, now you can choose products from the list to detail your diet</h4>
         <S.Table striped bordered hover size="sm">
           <thead>
@@ -77,10 +77,11 @@ const S = {
 
   Title: styled.h1`
       font-size: 2rem;
+      margin-bottom: 1.5rem;
       `,
   Table: styled(Table)`
       color: white;
-      
+      margin-top: 3rem;
       @media (max-width: 450px) {
         font-size: 0.6rem;
   }
