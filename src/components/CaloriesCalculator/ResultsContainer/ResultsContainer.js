@@ -3,8 +3,8 @@ import Results from "../Results";
 
 const ResultsContainer = (props) => {
   const [select, setSelect] = useState("maintain");
-  const [goalProPer, setProPer] = useState(0.8);
-  const [goalFatPer, setFatPer] = useState(0.45);
+  const [goalProPer, setProPer] = useState(0.8); //белки %
+  const [goalFatPer, setFatPer] = useState(0.45); //жиры %
   const [calculations, setCalculations] = useReducer(
     (state, newState) => ({ ...state, ...newState }),
     {
@@ -30,16 +30,12 @@ const ResultsContainer = (props) => {
       };
 
       // переводим кг в фунты, см в дюймы
-      const precisionNumber = Number(userInput.height)
-        .toPrecision(2)
-        .toString();
       userInput.unit === "metric"
         ? (kg = Number(userInput.weight))
         : (kg = Number(userInput.weight) / 2.2);
       userInput.unit === "metric"
         ? (cm = Number(userInput.height))
-        : (cm =
-          Number(precisionNumber[0]) * 30 + Number(precisionNumber[2]) * 2);
+        : (cm = Number(userInput.height) / 2.5);
 
       let calories;
       let carbs;

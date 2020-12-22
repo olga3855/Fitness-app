@@ -10,7 +10,7 @@ const NavBar = (props) => {
       variant="dark"
       expand="md"
     >
-      <Redirect push to={props.redirectPath} />
+      <Redirect to={props.redirectPath} />
 
       <Container>
         <Navbar.Brand>
